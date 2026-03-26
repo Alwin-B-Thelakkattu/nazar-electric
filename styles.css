@@ -215,6 +215,33 @@ body {
     transform: scale(1.1);
 }
 
+.maps-btn {
+    background-color: #005f73;
+    color: var(--white);
+    font-size: 24px;
+    padding: 0;
+}
+
+.maps-btn:hover {
+    background-color: #004f63;
+    transform: scale(1.1);
+}
+
+.map-location {
+    padding: 80px 20px;
+    background-color: var(--light-bg);
+}
+
+.map-location .section-title,
+.map-location .section-subtitle {
+    text-align: center;
+}
+
+.map-location .cta-buttons {
+    justify-content: center;
+    margin-top: 20px;
+}
+
 /* ========================
    HERO SECTION
    ======================== */
